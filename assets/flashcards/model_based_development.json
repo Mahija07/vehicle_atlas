@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is Model-Based Development (MBD)?",
+    "answer": "MBD is a software development approach where models are created to simulate, design, and generate embedded code.",
+    "layman": "It’s like designing your car’s brain using a digital LEGO set before building the real thing."
+  },
+  {
+    "question": "What tool is widely used for MBD?",
+    "answer": "MATLAB/Simulink by MathWorks is the most widely used MBD tool.",
+    "layman": "It’s the PowerPoint + Excel + Calculator for car software all in one."
+  },
+  {
+    "question": "What is Simulink?",
+    "answer": "Simulink is a graphical modeling environment used to simulate dynamic systems.",
+    "layman": "It’s like building a flowchart that actually runs and gives results."
+  },
+  {
+    "question": "What is the purpose of a Simulink model?",
+    "answer": "It visually represents logic, control flow, and data flow for system behavior.",
+    "layman": "It’s like drawing how your car thinks — in blocks and lines."
+  },
+  {
+    "question": "What is a subsystem in Simulink?",
+    "answer": "A subsystem is a set of grouped blocks that act as a single unit.",
+    "layman": "It’s like putting ingredients into one bowl and calling it 'Cake Mix'."
+  },
+  {
+    "question": "What is atomic vs non-atomic subsystem?",
+    "answer": "Atomic executes as one single unit; non-atomic may be broken down during code generation.",
+    "layman": "Atomic is like a sealed gift box — all or nothing!"
+  },
+  {
+    "question": "What is MIL testing?",
+    "answer": "Model-in-the-Loop testing validates the model’s logic before code generation.",
+    "layman": "It’s like practicing your script in the mirror before going on stage."
+  },
+  {
+    "question": "What is SIL testing?",
+    "answer": "Software-in-the-Loop tests the generated code on a PC without hardware.",
+    "layman": "You’re now testing the printed version of your script instead of the handwritten draft."
+  },
+  {
+    "question": "What is HIL testing?",
+    "answer": "Hardware-in-the-Loop tests the software on real ECUs with simulated inputs.",
+    "layman": "It’s like plugging your brain into a car simulator to see how it reacts."
+  },
+  {
+    "question": "What are Data Store Memory blocks?",
+    "answer": "They enable sharing data between different parts of the model.",
+    "layman": "It’s like placing notes in a common fridge that everyone can access."
+  },
+  {
+    "question": "What is a signal in Simulink?",
+    "answer": "A signal carries data between blocks during simulation.",
+    "layman": "Think of it as a WhatsApp message between two functions."
+  },
+  {
+    "question": "What is Code Generation in MBD?",
+    "answer": "It is the process of converting models into production-ready C code.",
+    "layman": "It’s like pressing 'print' on your design and getting a working machine code."
+  },
+  {
+    "question": "What are Inports and Outports?",
+    "answer": "They define inputs and outputs to and from a subsystem or model.",
+    "layman": "Inport is your entry gate, Outport is the exit door."
+  },
+  {
+    "question": "What is a Stateflow?",
+    "answer": "Stateflow is used to model event-driven and logical behavior using finite state machines.",
+    "layman": "It’s like drawing a flowchart that reacts based on conditions — like traffic lights."
+  },
+  {
+    "question": "What is a Lookup Table in Simulink?",
+    "answer": "It maps input values to output values based on pre-defined data.",
+    "layman": "It’s like having a cheat sheet — ‘if x = 3, then y = 7’."
+  },
+  {
+    "question": "What are Data Types in Simulink?",
+    "answer": "Data types define the kind of data a signal or variable holds, like int8, uint16, etc.",
+    "layman": "Like choosing between tea, coffee, or juice — each signal has its own flavor."
+  },
+  {
+    "question": "What is Fixed-step vs Variable-step solver?",
+    "answer": "Fixed-step runs at regular intervals; variable-step adapts based on model complexity.",
+    "layman": "Fixed-step is like setting an alarm every 5 mins. Variable-step only buzzes when needed."
+  },
+  {
+    "question": "What are model configuration parameters?",
+    "answer": "They define simulation settings, solver types, code generation options, etc.",
+    "layman": "It’s like adjusting the oven settings before baking your logic."
+  },
+  {
+    "question": "What is Calibration?",
+    "answer": "It is tuning parameters post-deployment to refine system behavior.",
+    "layman": "Tweak your music player after you’ve hit play — less bass, more treble."
+  },
+  {
+    "question": "What is a Back-to-Back (B2B) test?",
+    "answer": "It compares model output vs. generated code output to ensure equivalence.",
+    "layman": "It’s like double-checking if your hand-written essay and typed version match."
+  }
+]

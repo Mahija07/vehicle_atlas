@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is embedded programming?",
+    "answer": "It is writing software that runs on dedicated hardware systems like microcontrollers.",
+    "layman": "It's like teaching your toaster to think — and only think about making toast."
+  },
+  {
+    "question": "What language is mostly used in embedded systems?",
+    "answer": "C is the most commonly used language due to its low-level hardware access and efficiency.",
+    "layman": "C is like the native language of your hardware — it understands it best."
+  },
+  {
+    "question": "What is the difference between microcontroller and microprocessor?",
+    "answer": "Microcontrollers are self-contained systems with CPU, RAM, and peripherals, while microprocessors need external components.",
+    "layman": "Microcontrollers are like all-in-one printers; microprocessors are like separate machines for everything."
+  },
+  {
+    "question": "What is real-time operating system (RTOS)?",
+    "answer": "RTOS is an OS designed to serve real-time applications that process data as it comes in.",
+    "layman": "It’s like a super punctual manager — always meeting deadlines with precision."
+  },
+  {
+    "question": "What is an interrupt?",
+    "answer": "An interrupt temporarily halts the main program to handle urgent tasks, then resumes.",
+    "layman": "It's like pausing your game when your mom calls you — and then returning after answering."
+  },
+  {
+    "question": "What is a watchdog timer?",
+    "answer": "A watchdog timer resets the system if it detects the software is stuck or unresponsive.",
+    "layman": "It’s like a mom checking on you every minute to see if you're still breathing."
+  },
+  {
+    "question": "What is polling in embedded systems?",
+    "answer": "Polling continuously checks the status of a device or condition in a loop.",
+    "layman": "It’s like asking someone ‘Are we there yet?’ every 2 seconds."
+  },
+  {
+    "question": "What is memory-mapped I/O?",
+    "answer": "It allows peripheral devices to be controlled using specific memory addresses.",
+    "layman": "It’s like having a dedicated mailbox for each device in your home."
+  },
+  {
+    "question": "What is the stack?",
+    "answer": "The stack is a memory area used for function calls and local variables.",
+    "layman": "It's like a stack of plates — last one placed is the first to be removed."
+  },
+  {
+    "question": "What is flash memory?",
+    "answer": "Flash memory is non-volatile storage used to store firmware or programs.",
+    "layman": "It’s like a USB stick inside your car — remembers stuff even when power is off."
+  },
+  {
+    "question": "What is volatile keyword in C?",
+    "answer": "It tells the compiler that a variable may change at any time, preventing optimization.",
+    "layman": "It’s like telling the teacher: 'Don’t assume this kid will behave the same every minute!'"
+  },
+  {
+    "question": "What is the use of 'const' keyword?",
+    "answer": "Const declares variables that should not change after initialization.",
+    "layman": "It’s like writing something in permanent ink — no edits allowed!"
+  },
+  {
+    "question": "What are ISR (Interrupt Service Routines)?",
+    "answer": "ISRs are functions executed when specific hardware interrupts occur.",
+    "layman": "It’s like a fire drill that triggers a special response — drop everything and act!"
+  },
+  {
+    "question": "What is bit masking?",
+    "answer": "Bit masking is used to manipulate individual bits in registers or data.",
+    "layman": "It’s like turning on/off specific lights in a big switchboard."
+  },
+  {
+    "question": "What is debounce logic?",
+    "answer": "Debouncing filters out noise from rapid button presses to prevent false triggers.",
+    "layman": "It's like ignoring doorbell spams and only answering genuine rings."
+  },
+  {
+    "question": "What are timers used for?",
+    "answer": "Timers generate delays, measure time, or trigger periodic events.",
+    "layman": "They’re like kitchen timers — ‘Beep!’ when time’s up!"
+  },
+  {
+    "question": "What is boot time?",
+    "answer": "Boot time is the time taken by the system to start from reset to operational state.",
+    "layman": "It’s how long your car’s brain takes to ‘wake up and start thinking’."
+  },
+  {
+    "question": "What is low power mode in microcontrollers?",
+    "answer": "It reduces clock speed and disables peripherals to save energy.",
+    "layman": "It’s like your phone on airplane mode — alive, but sleeping."
+  },
+  {
+    "question": "What is DMA?",
+    "answer": "DMA (Direct Memory Access) allows devices to access memory without CPU intervention.",
+    "layman": "It’s like sending files directly from one device to another without bugging your PC."
+  },
+  {
+    "question": "What is firmware?",
+    "answer": "Firmware is low-level software programmed into non-volatile memory to control hardware.",
+    "layman": "It's the permanent personality of your hardware — kind of like baked-in instructions."
+  }
+]

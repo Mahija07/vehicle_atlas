@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is an ECU?",
+    "answer": "ECU stands for Electronic Control Unit, a microcontroller-based unit that controls specific vehicle functions.",
+    "layman": "It’s like your car’s brain – each brain cell (ECU) has a job, like braking, engine control, or lights."
+  },
+  {
+    "question": "How many ECUs can a modern car have?",
+    "answer": "Modern cars can have 70 to 100+ ECUs depending on the complexity and features.",
+    "layman": "Your car has more computers than your house – seriously!"
+  },
+  {
+    "question": "What is the Powertrain Control Module (PCM)?",
+    "answer": "PCM is a central ECU that controls both the engine and transmission systems.",
+    "layman": "It’s the multitasking boss of engine and gear-shifting systems."
+  },
+  {
+    "question": "What is the Body Control Module (BCM)?",
+    "answer": "BCM manages electronic features like lights, wipers, windows, and central locking.",
+    "layman": "It’s the housekeeper for comfort stuff – lights, locks, and more."
+  },
+  {
+    "question": "What is the role of sensors in ECU systems?",
+    "answer": "Sensors gather data (e.g., speed, temperature) and send it to ECUs for decision-making.",
+    "layman": "Sensors are the car’s eyes and ears."
+  },
+  {
+    "question": "What are actuators in automotive systems?",
+    "answer": "Actuators receive commands from ECUs to perform actions like moving valves or motors.",
+    "layman": "They are the car’s muscles – if the ECU says ‘move’, actuators do it."
+  },
+  {
+    "question": "What is a microcontroller?",
+    "answer": "A microcontroller is a compact integrated circuit that acts as the computing unit inside an ECU.",
+    "layman": "It’s the tiny brain inside every ECU."
+  },
+  {
+    "question": "What is the function of a relay?",
+    "answer": "Relays are electrically operated switches used to control high-current devices via ECUs.",
+    "layman": "It’s like a remote switch – click here, action there!"
+  },
+  {
+    "question": "What is voltage regulation in ECUs?",
+    "answer": "Voltage regulation ensures that ECUs receive stable voltage despite fluctuations.",
+    "layman": "It’s like a power stabilizer – no overcharging or underpowering!"
+  },
+  {
+    "question": "What is an EEPROM in ECUs?",
+    "answer": "EEPROM is a memory type used in ECUs to store non-volatile data like DTCs or calibration values.",
+    "layman": "It’s the memory that doesn’t forget – even after shutdown!"
+  },
+  {
+    "question": "What is a wiring harness?",
+    "answer": "A wiring harness is a bundled set of wires that connect ECUs, sensors, and actuators.",
+    "layman": "It’s your car’s nervous system – lots of wires doing important talking."
+  },
+  {
+    "question": "What are grounds in ECU systems?",
+    "answer": "Grounds are reference voltage points used for safe current return paths in circuits.",
+    "layman": "They are like drainage pipes for electricity – essential and ignored until they fail!"
+  },
+  {
+    "question": "What is EMI/EMC?",
+    "answer": "EMI (Electromagnetic Interference) and EMC (Electromagnetic Compatibility) ensure that ECUs don’t interfere with each other.",
+    "layman": "It’s like keeping noisy roommates from disturbing each other’s calls."
+  },
+  {
+    "question": "What is LIN bus?",
+    "answer": "LIN (Local Interconnect Network) is a low-cost serial communication protocol used for non-critical ECUs.",
+    "layman": "It’s the budget WhatsApp group for minor ECUs like window switches."
+  },
+  {
+    "question": "What is CAN transceiver?",
+    "answer": "CAN transceiver is a physical layer chip that connects the microcontroller to the CAN bus.",
+    "layman": "It’s the translator between the brain (ECU) and the group chat (CAN)."
+  },
+  {
+    "question": "What is multiplexing in automotive electronics?",
+    "answer": "Multiplexing allows multiple signals to share one communication channel to reduce wiring.",
+    "layman": "It’s like sending different TV channels on one cable line!"
+  },
+  {
+    "question": "What is a short-to-ground fault?",
+    "answer": "A short-to-ground fault is an unintentional connection to ground that causes voltage drop or malfunction.",
+    "layman": "It’s like touching a live wire to the floor – not good."
+  },
+  {
+    "question": "What is a load dump?",
+    "answer": "Load dump is a sudden voltage surge when a load (like a battery) disconnects while charging.",
+    "layman": "It’s like yanking your phone off fast charging – sparks may fly!"
+  },
+  {
+    "question": "What is an ECU bootloader?",
+    "answer": "A bootloader is special software that initializes and manages firmware updates for ECUs.",
+    "layman": "It’s like the phone's startup screen and update manager combined."
+  },
+  {
+    "question": "What is fail-safe mode?",
+    "answer": "Fail-safe mode is a backup operating state ECUs enter when a fault is detected.",
+    "layman": "It’s your car saying: 'Something’s wrong, but I’ll try to keep going safely.'"
+  }
+]

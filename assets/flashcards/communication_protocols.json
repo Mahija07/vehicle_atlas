@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is CAN?",
+    "answer": "CAN (Controller Area Network) is a robust vehicle bus standard designed to allow microcontrollers and devices to communicate without a host computer.",
+    "layman": "CAN is like a group chat where everyone shares updates quickly and efficiently without anyone controlling the conversation."
+  },
+  {
+    "question": "What is the difference between CAN and CAN FD?",
+    "answer": "CAN FD (Flexible Data-rate) supports longer data payloads and faster communication compared to Classical CAN.",
+    "layman": "If CAN is a walkie-talkie, CAN FD is a smartphone with faster and bigger messages."
+  },
+  {
+    "question": "What is LIN protocol?",
+    "answer": "LIN (Local Interconnect Network) is a low-cost serial communication protocol for simple devices like mirrors or window controls.",
+    "layman": "LIN is like a basic home intercom system, used for small messages to nearby rooms."
+  },
+  {
+    "question": "What is FlexRay?",
+    "answer": "FlexRay is a high-speed, time-triggered protocol used in safety-critical applications like braking or steering.",
+    "layman": "FlexRay is like a bullet train—fast, punctual, and perfect for urgent systems."
+  },
+  {
+    "question": "What is Ethernet used for in vehicles?",
+    "answer": "Automotive Ethernet is used for high-bandwidth communication like cameras, infotainment, and ADAS.",
+    "layman": "Ethernet is like a highway for big data trucks in modern smart cars."
+  },
+  {
+    "question": "What is UDS?",
+    "answer": "UDS (Unified Diagnostic Services) is a protocol used for diagnostics, programming, and communication with ECUs.",
+    "layman": "UDS is like the doctor’s protocol to check a car’s health and treat any issues."
+  },
+  {
+    "question": "What is TP in CAN?",
+    "answer": "Transport Protocol (TP) allows transmission of messages larger than 8 bytes in CAN.",
+    "layman": "TP is like breaking a big pizza into slices so it can fit in a small delivery box (CAN frame)."
+  },
+  {
+    "question": "What is signal multiplexing in CAN?",
+    "answer": "Multiplexing allows different data to be transmitted using the same CAN ID by changing a selector byte.",
+    "layman": "It’s like using the same TV remote for different devices by just switching modes."
+  },
+  {
+    "question": "What is a CAN ID?",
+    "answer": "A CAN ID is an identifier that determines the priority of the message on the CAN bus.",
+    "layman": "CAN ID is like who speaks first in a meeting—lower the ID, higher the priority."
+  },
+  {
+    "question": "What is message arbitration in CAN?",
+    "answer": "Arbitration is the process by which CAN nodes decide which message gets to use the bus when multiple nodes want to transmit.",
+    "layman": "It’s like several people raising hands, but the quietest one (lowest ID) gets to speak first."
+  },
+  {
+    "question": "What is a frame in CAN communication?",
+    "answer": "A CAN frame is a structured message format used to transmit data including ID, control, and payload.",
+    "layman": "A frame is like a letter with a header (who it's from), a message, and a stamp (checksum)."
+  },
+  {
+    "question": "What is baud rate?",
+    "answer": "Baud rate is the speed at which data is transmitted over a communication channel, like 500 kbps in CAN.",
+    "layman": "It’s how fast your messages travel—like choosing a 2G or 5G network."
+  },
+  {
+    "question": "What is the role of the CAN driver?",
+    "answer": "The CAN driver interfaces between application software and the CAN controller hardware.",
+    "layman": "It’s like your keyboard driver—translating your keypress into an actual action."
+  },
+  {
+    "question": "What is a cyclic message?",
+    "answer": "A cyclic message is sent repeatedly at regular intervals regardless of change in data.",
+    "layman": "Like your alarm clock beeping every morning whether you’re awake or not."
+  },
+  {
+    "question": "What is an event-driven message?",
+    "answer": "Event-driven messages are transmitted only when data changes or an event occurs.",
+    "layman": "Like your phone ringing only when someone calls, not constantly buzzing."
+  },
+  {
+    "question": "What is wake-up in LIN?",
+    "answer": "Wake-up is a signal sent to activate all sleeping nodes on the LIN network.",
+    "layman": "It’s like clapping your hands to wake up a group nap."
+  },
+  {
+    "question": "What is the master-slave concept in LIN?",
+    "answer": "LIN uses a single master node that controls when each slave node can communicate.",
+    "layman": "Think of a teacher calling out names and only that student answering—orderly and controlled."
+  },
+  {
+    "question": "What is DoIP?",
+    "answer": "Diagnostics over IP (DoIP) is a protocol for performing vehicle diagnostics using Ethernet.",
+    "layman": "DoIP is like remote car checkup via internet instead of a mechanic plugging in cables."
+  },
+  {
+    "question": "Why is signal timing important in communication protocols?",
+    "answer": "Proper timing ensures synchronized, collision-free, and deterministic data transfer.",
+    "layman": "It’s like traffic signals—everyone knows when to stop and go to avoid accidents."
+  },
+  {
+    "question": "What are communication matrix and DBC files?",
+    "answer": "They define signal names, CAN IDs, byte positions, and scaling factors for communication.",
+    "layman": "It’s like a Google Sheet for your car—who says what, when, and where it lands."
+  }
+]

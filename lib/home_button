@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+import 'welcome_screen.dart'; // Adjust path if your structure is different
+
+class HomeButton extends StatelessWidget {
+  const HomeButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return FloatingActionButton(
+      tooltip: 'Go to Home',
+      backgroundColor: Colors.redAccent,
+      child: const Icon(Icons.home, color: Colors.white),
+      onPressed: () {
+        Navigator.pushAndRemoveUntil(
+          context,
+          MaterialPageRoute(builder: (_) => const WelcomeScreen()),
+          (route) => false,
+        );
+      },
+    );
+  }
+}

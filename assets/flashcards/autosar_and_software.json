@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is AUTOSAR?",
+    "answer": "AUTOSAR (AUTomotive Open System ARchitecture) is a global standard for automotive software architecture, aiming to standardize software interfaces and enhance reusability.",
+    "layman": "Imagine AUTOSAR as the LEGO manual for car software—everyone builds different models but with the same type of bricks and instructions."
+  },
+  {
+    "question": "What are AUTOSAR Software Components (SWCs)?",
+    "answer": "SWCs are modular, reusable software blocks that perform specific tasks and communicate through standardized interfaces.",
+    "layman": "Think of SWCs like different apps on your phone. Each does one job—music, calls, maps—but they all talk using the same rules."
+  },
+  {
+    "question": "What is RTE in AUTOSAR?",
+    "answer": "The Runtime Environment (RTE) is middleware that connects SWCs with each other and with the basic software.",
+    "layman": "RTE is like the waiter in a restaurant, taking orders (signals) from customers (SWCs) and delivering them to the kitchen (BSW)."
+  },
+  {
+    "question": "What is BSW in AUTOSAR?",
+    "answer": "Basic Software (BSW) is the layer that provides services like communication, memory, diagnostics, and OS abstraction.",
+    "layman": "BSW is like the car's nervous system—handling memory, heartbeat (timers), and communication without you thinking about it."
+  },
+  {
+    "question": "What is MCAL?",
+    "answer": "Microcontroller Abstraction Layer (MCAL) abstracts hardware functionalities so upper layers can access them via standard APIs.",
+    "layman": "MCAL is the translator between software and hardware—turning techie signals into actual hardware actions."
+  },
+  {
+    "question": "What is a Diagnostic Event Manager (Dem)?",
+    "answer": "Dem stores and manages diagnostic trouble codes (DTCs) and fault events reported by software modules.",
+    "layman": "Dem is your car’s tattletale—it notices something’s wrong and keeps a diary of all errors to show the mechanic."
+  },
+  {
+    "question": "What is a Service Layer?",
+    "answer": "It provides basic services such as ECU State Management, Watchdog, and Communication Management to the software components.",
+    "layman": "The Service Layer is like your car's IT department—it handles backups, restarts, and security."
+  },
+  {
+    "question": "What is a COM stack?",
+    "answer": "The Communication Stack manages sending and receiving signals between ECUs using protocols like CAN, LIN, or FlexRay.",
+    "layman": "COM Stack is like your car's WhatsApp—it sends messages to other ECUs quickly and safely."
+  },
+  {
+    "question": "What is PDU?",
+    "answer": "Protocol Data Unit (PDU) is the actual packet of data transmitted between ECUs.",
+    "layman": "PDU is your car’s version of a tweet—short, formatted data bursts saying, 'Speed is 80km/h.'"
+  },
+  {
+    "question": "What is a Calibration Parameter?",
+    "answer": "It is a tunable software variable used to adjust system behavior without changing the source code.",
+    "layman": "It’s like setting your alarm—you're not changing the phone, just the wake-up time."
+  },
+  {
+    "question": "What is a Port Interface?",
+    "answer": "A port interface defines how software components communicate through sender-receiver or client-server mechanisms.",
+    "layman": "Port interfaces are like charging cables—both ends must fit for anything to work."
+  },
+  {
+    "question": "What are Sender-Receiver (SR) ports?",
+    "answer": "SR ports are used to broadcast or receive continuous or event-triggered data.",
+    "layman": "SR is like radio—Engine says, 'I’m at 3000 RPM,' and anyone tuned in can hear it."
+  },
+  {
+    "question": "What are Client-Server (CS) ports?",
+    "answer": "CS ports are used to request and respond to services synchronously or asynchronously.",
+    "layman": "CS is like a pizza order—Brake says, 'Engine, I need torque!' and waits for a reply."
+  },
+  {
+    "question": "What is Mode Management in AUTOSAR?",
+    "answer": "It enables the coordination of behavior among components based on system modes like startup, sleep, etc.",
+    "layman": "It’s like your car switching from chill mode to sports mode—and telling everyone to behave accordingly."
+  },
+  {
+    "question": "What is a Software Cluster?",
+    "answer": "It is a logical grouping of software components for better modularity and deployment.",
+    "layman": "Think of a software cluster like a playlist of related apps—all music or all navigation."
+  },
+  {
+    "question": "What is CAN Communication in AUTOSAR?",
+    "answer": "CAN (Controller Area Network) is a priority-based bus protocol used for communication between ECUs.",
+    "layman": "CAN is like a family group chat where the airbag message gets priority over the music volume."
+  },
+  {
+    "question": "What is a Watchdog Manager?",
+    "answer": "It monitors software execution and resets the system if the application hangs.",
+    "layman": "Watchdog is the mom who says, 'If you don’t speak up in 5 seconds, I’m restarting your life!'"
+  },
+  {
+    "question": "What is OS in AUTOSAR?",
+    "answer": "The AUTOSAR OS is a real-time operating system handling tasks, events, and timing mechanisms.",
+    "layman": "The OS is your car’s conductor—making sure all instruments (tasks) play in sync."
+  },
+  {
+    "question": "What is the role of EcuM?",
+    "answer": "ECU State Manager (EcuM) manages the states like startup, shutdown, and sleep.",
+    "layman": "EcuM is the car’s butler—turning everything on, managing power, and tucking it in at night."
+  },
+  {
+    "question": "What is the main benefit of AUTOSAR?",
+    "answer": "It promotes standardization, reusability, and separation of hardware and software.",
+    "layman": "AUTOSAR makes sure no matter what car you work on, the software speaks a universal language—like English for engineers."
+  }
+]

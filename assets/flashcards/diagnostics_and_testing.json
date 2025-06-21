@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is automotive diagnostics?",
+    "answer": "Automotive diagnostics refers to detecting, reporting, and resolving vehicle faults using tools and protocols like UDS.",
+    "layman": "It’s like checking what's wrong in your body using a stethoscope — but for a car."
+  },
+  {
+    "question": "What is UDS?",
+    "answer": "UDS (Unified Diagnostic Services) is a protocol for diagnostics and ECU communication as per ISO 14229.",
+    "layman": "It’s the doctor’s handbook that knows every car part’s health status."
+  },
+  {
+    "question": "What is DTC?",
+    "answer": "DTC stands for Diagnostic Trouble Code, which is a standardized code representing a specific fault.",
+    "layman": "Like a fever code telling you something’s wrong — P0300 means engine misfire."
+  },
+  {
+    "question": "What is a scan tool?",
+    "answer": "A scan tool reads and clears DTCs, shows live data, and communicates with vehicle ECUs.",
+    "layman": "It’s like a thermometer and health tracker for your car."
+  },
+  {
+    "question": "What is OBD-II?",
+    "answer": "OBD-II (On-Board Diagnostics) is a standardized interface to read DTCs and vehicle data.",
+    "layman": "It’s the USB port of your car’s health system."
+  },
+  {
+    "question": "What is the difference between OBD and UDS?",
+    "answer": "OBD is standardized for emission-related diagnostics, while UDS is more flexible and detailed.",
+    "layman": "OBD is a basic health check; UDS is a full-body scan."
+  },
+  {
+    "question": "What is flashing or reprogramming?",
+    "answer": "Flashing means updating or replacing ECU software using diagnostic tools.",
+    "layman": "It’s like installing a software update on your smartphone — but for your car."
+  },
+  {
+    "question": "What is calibration?",
+    "answer": "Calibration adjusts ECU parameters for specific vehicle behavior under various conditions.",
+    "layman": "It’s like tuning a guitar string to the perfect note."
+  },
+  {
+    "question": "What is FMEA?",
+    "answer": "FMEA (Failure Mode and Effects Analysis) identifies potential faults and their consequences.",
+    "layman": "Imagine thinking of what could go wrong in advance — and planning for it."
+  },
+  {
+    "question": "What is fault injection testing?",
+    "answer": "Fault injection intentionally introduces errors to test a system’s robustness.",
+    "layman": "It’s like testing how a bridge handles a crack before it really breaks."
+  },
+  {
+    "question": "What is a test case?",
+    "answer": "A test case is a documented scenario to verify if a feature or requirement works as expected.",
+    "layman": "It’s like asking a specific question to check if someone did their homework."
+  },
+  {
+    "question": "What is test coverage?",
+    "answer": "Test coverage measures how much of the code or functionality is tested by test cases.",
+    "layman": "It’s like seeing how many chapters of your textbook you’ve studied for an exam."
+  },
+  {
+    "question": "What is MIL?",
+    "answer": "MIL (Malfunction Indicator Lamp) is the 'Check Engine' light triggered by faults.",
+    "layman": "It’s the glowing warning on your car dashboard that says 'Something’s wrong!'"
+  },
+  {
+    "question": "What is freeze frame data?",
+    "answer": "Freeze frame captures ECU data at the moment a DTC is triggered.",
+    "layman": "It’s a screenshot of your car’s internal status during the error."
+  },
+  {
+    "question": "What is end-of-line testing?",
+    "answer": "EOL testing is the final test phase in manufacturing to ensure all systems are working before delivery.",
+    "layman": "It’s like the final quality check before a cake is boxed."
+  },
+  {
+    "question": "What is unit testing?",
+    "answer": "Unit testing verifies individual components or functions in isolation.",
+    "layman": "It’s like checking every Lego piece before building a castle."
+  },
+  {
+    "question": "What is integration testing?",
+    "answer": "Integration testing checks how different software modules work together.",
+    "layman": "It’s like ensuring your phone's screen, battery, and buttons all work smoothly together."
+  },
+  {
+    "question": "What is regression testing?",
+    "answer": "Regression testing ensures that changes don’t break existing functionality.",
+    "layman": "It’s like checking that fixing one leak didn’t cause another in the plumbing."
+  },
+  {
+    "question": "What is a test report?",
+    "answer": "A test report documents results, status, and defects found during testing.",
+    "layman": "It’s your car’s health report card after an inspection."
+  },
+  {
+    "question": "What is diagnostics communication?",
+    "answer": "It is the interaction between a diagnostic tester and vehicle ECUs using protocols like UDS or KWP2000.",
+    "layman": "It’s like a chat between your doctor (tester) and body parts (ECUs) to understand what's wrong."
+  }
+]

@@ -1,0 +1,46 @@
+name: gearhead_learn
+description: An interactive app to learn embedded systems in the automotive domain.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.0
+  lottie: ^3.0.0
+  flutter_svg: ^2.0.7
+  flutter_markdown: ^0.7.7+1
+  graphview: ^1.2.0
+  flutter_cube: ^0.1.1
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.2.5
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/content/
+    - assets/images/
+    - assets/coming_soon.json
+    - assets/home_animation.json
+    - assets/car_facts.json
+    - assets/flashcards/autosar_and_software.json
+    - assets/flashcards/communication_protocols.json
+    - assets/flashcards/diagnostics_and_testing.json
+    - assets/flashcards/ecu_and_electronics.json
+    - assets/flashcards/embedded_programming.json
+    - assets/flashcards/model_based_development.json
+    - assets/flashcards/random_quiz.json
+    - assets/flashcards/safety_and_security.json
+    - assets/flashcards/tools_and_workflows.json
+    - assets/flashcards/vehicle_systems.json
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"

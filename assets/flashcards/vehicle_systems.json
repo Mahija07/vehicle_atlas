@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is a Powertrain system?",
+    "answer": "It includes all the components that generate power and deliver it to the wheels, such as the engine, transmission, and driveshaft.",
+    "layman": "It’s the gym of your car — where strength is built and transferred to move the vehicle."
+  },
+  {
+    "question": "What does the Chassis system do?",
+    "answer": "The chassis system supports the car body and includes suspension, steering, and braking systems.",
+    "layman": "It’s the car’s skeleton and limbs — keeping everything in place and letting it steer or stop."
+  },
+  {
+    "question": "What is the role of the Brake system?",
+    "answer": "The brake system slows or stops the vehicle using friction or regenerative braking in EVs.",
+    "layman": "It’s your car’s emergency reflexes — hitting the brakes like you hit pause!"
+  },
+  {
+    "question": "What is an HVAC system?",
+    "answer": "HVAC stands for Heating, Ventilation, and Air Conditioning, responsible for cabin climate control.",
+    "layman": "It’s the car’s AC and heater — keeping you cool or warm as needed."
+  },
+  {
+    "question": "What does the Infotainment system include?",
+    "answer": "Infotainment includes audio, navigation, touchscreens, and smartphone connectivity features.",
+    "layman": "It’s the car’s brain for fun — music, maps, and messages all in one place."
+  },
+  {
+    "question": "What is the Body Control Module (BCM)?",
+    "answer": "BCM manages non-engine electrical systems like lights, wipers, and door locks.",
+    "layman": "Think of it as your car’s housekeeper — turning lights on, locking doors, and cleaning windows."
+  },
+  {
+    "question": "What does the ADAS system do?",
+    "answer": "ADAS (Advanced Driver Assistance Systems) aids drivers with safety features like lane keeping, AEB, and cruise control.",
+    "layman": "It’s your car’s safety buddy — watching the road and giving you a heads-up or stepping in."
+  },
+  {
+    "question": "What is the role of the Suspension system?",
+    "answer": "It absorbs shocks and ensures a smooth ride by connecting the car to its wheels.",
+    "layman": "It’s the comfy shoes of your car — taking care of bumps and potholes."
+  },
+  {
+    "question": "What is the role of the Transmission system?",
+    "answer": "It transmits engine power to the wheels using gears and shifting mechanisms.",
+    "layman": "It’s like changing gears on a cycle — deciding how fast or strong your car pulls."
+  },
+  {
+    "question": "What does the Fuel System do?",
+    "answer": "It stores and delivers fuel to the engine using pumps, filters, and injectors.",
+    "layman": "It’s your car’s food supply line — feeding the engine with just the right fuel dose."
+  },
+  {
+    "question": "What is the Exhaust System?",
+    "answer": "It removes burnt gases from the engine and reduces emissions using mufflers and catalytic converters.",
+    "layman": "It’s the nose of your car — breathing out after eating fuel."
+  },
+  {
+    "question": "What is the Lighting System in vehicles?",
+    "answer": "It includes headlights, tail lamps, indicators, interior lights, and ambient lights.",
+    "layman": "It’s your car’s flashlight, disco light, and blinkers all rolled into one."
+  },
+  {
+    "question": "What is Telematics?",
+    "answer": "Telematics refers to remote data transfer between vehicle and cloud, including location and vehicle status.",
+    "layman": "It’s like GPS with a brain — your car chatting with satellites and apps."
+  },
+  {
+    "question": "What is a Drivetrain?",
+    "answer": "It connects the transmission to the wheels and includes the driveshaft, differential, and axles.",
+    "layman": "It’s the final push — transferring engine power to actually move the car."
+  },
+  {
+    "question": "What is the role of the Steering System?",
+    "answer": "It allows the driver to control the direction of the vehicle.",
+    "layman": "It’s your car’s hands — wherever you turn, it listens."
+  },
+  {
+    "question": "What is Start-Stop Technology?",
+    "answer": "It automatically turns off the engine at idle to save fuel and reduce emissions.",
+    "layman": "It’s like your car saying, 'Why waste energy at a red light?'"
+  },
+  {
+    "question": "What is a Hybrid Powertrain?",
+    "answer": "It combines an internal combustion engine with an electric motor to improve efficiency.",
+    "layman": "It’s like your car having two energy drinks — gas and electricity!"
+  },
+  {
+    "question": "What is EV architecture?",
+    "answer": "It refers to the structural layout of batteries, motors, and controllers in an electric vehicle.",
+    "layman": "It’s the electric skeleton — the new way cars are built from the ground up."
+  },
+  {
+    "question": "What is Vehicle Diagnostics?",
+    "answer": "It’s the process of identifying and troubleshooting issues in vehicle systems using sensors and ECUs.",
+    "layman": "It’s your car running a health check and showing error messages."
+  },
+  {
+    "question": "What is a Vehicle Gateway ECU?",
+    "answer": "It acts as a central hub for communication between different domains like infotainment, powertrain, and ADAS.",
+    "layman": "It’s the translator at a conference — making sure everyone (every ECU) understands each other."
+  }
+]

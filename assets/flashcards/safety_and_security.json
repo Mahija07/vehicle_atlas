@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is ISO 26262?",
+    "answer": "It is an international standard for functional safety in road vehicles.",
+    "layman": "It’s like the safety checklist that ensures your car’s brain won’t do crazy things."
+  },
+  {
+    "question": "What does ASIL stand for?",
+    "answer": "Automotive Safety Integrity Level — a classification of risk from A (lowest) to D (highest).",
+    "layman": "ASIL is your car system's danger meter — A is 'meh', D is 'handle with gloves!'"
+  },
+  {
+    "question": "What is ASIL-D?",
+    "answer": "It is the highest level of safety criticality in ISO 26262.",
+    "layman": "It’s the 'VIP security level' for car functions — fail here and lives are at stake."
+  },
+  {
+    "question": "What is a Safety Goal?",
+    "answer": "A high-level safety requirement to prevent unreasonable risk.",
+    "layman": "It’s like saying 'No matter what, the brakes must always work!'"
+  },
+  {
+    "question": "What is FMEA?",
+    "answer": "Failure Modes and Effects Analysis — a method to identify possible failure points.",
+    "layman": "It’s like asking ‘What can go wrong?’ before it actually goes wrong."
+  },
+  {
+    "question": "What is a safety mechanism?",
+    "answer": "A design element that detects or mitigates faults.",
+    "layman": "It’s like having a parachute on a rollercoaster — just in case!"
+  },
+  {
+    "question": "What is latent fault?",
+    "answer": "A fault that exists but is not immediately detected.",
+    "layman": "It's like a crack in the wall that’s hiding behind a painting."
+  },
+  {
+    "question": "What is cybersecurity in vehicles?",
+    "answer": "It’s about protecting ECUs and networks from hacking or unauthorized access.",
+    "layman": "It’s like adding a firewall to your car so no one can remote-control it!"
+  },
+  {
+    "question": "What is the standard for automotive cybersecurity?",
+    "answer": "ISO/SAE 21434 is the global standard for automotive cybersecurity.",
+    "layman": "It’s the rulebook that keeps hackers out of your car’s software."
+  },
+  {
+    "question": "What is Secure Boot?",
+    "answer": "It ensures only trusted software runs during ECU startup.",
+    "layman": "It’s like a bouncer checking IDs before letting code into the party."
+  },
+  {
+    "question": "What is HARA?",
+    "answer": "Hazard Analysis and Risk Assessment — it assesses risks associated with hazards.",
+    "layman": "Think of it as traffic police analyzing where accidents might happen."
+  },
+  {
+    "question": "What is a fault tree analysis?",
+    "answer": "A top-down approach to analyze failure causes.",
+    "layman": "It’s like reverse engineering a problem to figure out what triggered it."
+  },
+  {
+    "question": "What is redundancy in safety?",
+    "answer": "Using multiple systems to ensure safety if one fails.",
+    "layman": "It’s like carrying two spare tires just in case!"
+  },
+  {
+    "question": "What is a safety case?",
+    "answer": "A documented argument that a system is acceptably safe.",
+    "layman": "It’s the car’s resume showing how safe it is for public roads."
+  },
+  {
+    "question": "What is penetration testing?",
+    "answer": "It’s ethical hacking to find security vulnerabilities.",
+    "layman": "It’s like hiring a burglar to check how easy it is to break into your house."
+  },
+  {
+    "question": "What is message authentication?",
+    "answer": "It verifies that a message is from a trusted source and not altered.",
+    "layman": "It’s like checking if the text really came from your mom — not a scammer!"
+  },
+  {
+    "question": "What is over-the-air (OTA) security?",
+    "answer": "Security measures to protect software updates sent wirelessly.",
+    "layman": "It’s like password-protecting your car's brain updates over WiFi."
+  },
+  {
+    "question": "What is diagnostic security access?",
+    "answer": "A mechanism to prevent unauthorized diagnostics or flashing.",
+    "layman": "It’s like locking the hood of your car — not everyone can peek inside!"
+  },
+  {
+    "question": "What is intrusion detection?",
+    "answer": "A system that detects unauthorized activity on vehicle networks.",
+    "layman": "It’s like motion sensors for your car’s software!"
+  },
+  {
+    "question": "What is TARA in cybersecurity?",
+    "answer": "Threat Analysis and Risk Assessment — it identifies and evaluates security threats.",
+    "layman": "It's like thinking ahead — ‘What if someone hacks the brakes? How bad could it get?’"
+  }
+]
