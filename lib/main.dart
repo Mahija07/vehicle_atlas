@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'welcome_screen.dart';
+import 'eagle_eye_view.dart'; // if you're using it
 
 void main() {
   runApp(GearHeadApp());
